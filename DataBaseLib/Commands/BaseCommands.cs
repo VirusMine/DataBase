@@ -12,7 +12,7 @@ namespace DataBaseLib.Commands
     {
         // ЕСЛИ нужна другая БД, просто меняем AccessDataBaseController
         // на нужную, например SQLiteDataBaseController
-        // в следующей строке
+        // в следующей строке.
         private AccessDataBaseController controller = new AccessDataBaseController();
 
         public DataTable GetDataTable(string tableName)
